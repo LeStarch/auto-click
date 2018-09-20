@@ -185,7 +185,7 @@ public class AutoClickFrame extends JFrame {
         }
         @Override
         public void eventDispatched(AWTEvent event) {
-            Focu
+            //Focu
             System.out.println("Event:"+event);
             if (event instanceof FocusEvent && this.current == State.LOCATION) {
                 this.robot.setLocation(MouseInfo.getPointerInfo().getLocation());
